@@ -83,9 +83,9 @@ install:
             fontconfig-devel
             devtoolset-7
             autotools-latest
-  - $D curl -LO https://github.com/ojdkbuild/contrib_jdk13u-ci/releases/download/jdk-13.0.2%2B8/jdk-13.0.2-ojdkbuild-linux-x64.zip
-  - $D unzip -q jdk-13.0.2-ojdkbuild-linux-x64.zip
-  - $D mv jdk-13.0.2-ojdkbuild-linux-x64 bootjdk
+  - $D curl -LO https://github.com/ojdkbuild/contrib_jdk14u-ci/releases/download/jdk-14.0.2%2B12/jdk-14.0.2-ojdkbuild-linux-x64.zip
+  - $D unzip -q jdk-14.0.2-ojdkbuild-linux-x64.zip
+  - $D mv jdk-14.0.2-ojdkbuild-linux-x64 bootjdk
 
 before_script:
   - $D curl -LO http://hg.openjdk.java.net/jdk-updates/jdk15u/archive/${OJDK_TAG}.tar.bz2
