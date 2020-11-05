@@ -1,7 +1,7 @@
 OpenJDK 15 Linux builds
 =======================
 
-[![travis](https://travis-ci.org/ojdkbuild/contrib_jdk15u-ci.svg?branch=jdk-15.0.0%2B36)](https://travis-ci.org/ojdkbuild/contrib_jdk15u-ci/builds)
+[![travis](https://travis-ci.org/ojdkbuild/contrib_jdk15u-ci.svg?branch=jdk-15.0.1%2B9)](https://travis-ci.org/ojdkbuild/contrib_jdk15u-ci/builds)
 
 OpenJDK 15 "vanilla" builds done on Travis CI - [downloads](https://github.com/ojdkbuild/contrib_jdk15u-ci/releases).
 
